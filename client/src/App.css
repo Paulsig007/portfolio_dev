@@ -117,9 +117,8 @@ body {
   margin-right: 30px;
 }
 
-.resume {
-  height: 8rem;
-  width: 25rem;
+a {
+  text-decoration: none;
 }
 
 /* ==Projects.js== */
