@@ -12,8 +12,10 @@ export default function Home() {
           alignItems: "center",
         }}
       >
-        <h2 className="compTitle homeTitle">Thank You for Visiting</h2>
-        <h3 className="homeGreet">Make Yourself At Home</h3>
+        <h2 className="compTitle homeTitle">
+          Thank You for Visiting Andrick Siegmund's Portfolio
+        </h2>
+        <h3 className="homeGreet">Please, Make Yourself At Home</h3>
         <img src={GeoFace} alt="Geometric Sketch Profile Pic" id="geoFace" />
       </div>
     </div>

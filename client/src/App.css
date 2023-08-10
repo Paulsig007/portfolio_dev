@@ -80,14 +80,16 @@ body {
 /* ===Home.js===== */
 .homeTitle {
   color: white;
+  text-align: center;
 }
 .homeText {
   color: white;
-  font-size: 1.2em;
+  font-size: em;
 }
 .homeGreet {
   color: white;
   font-size: 2em;
+  text-align: center;
 }
 #geoFace {
   width: 40%;
