@@ -19,9 +19,9 @@ export default function About() {
         <p className="aboutText skillsList">
           HTML - CSS - Javascript ES6 - MERN - Apollo GraphQL - Bootstrap -
           Material UI - Bootstrap - Handlebars - RESTful APIs - AJAX - RESTful
-          APIs - Git - Heroku - GitHub - VS Code - NPM - Jest - MongoDB -
+          APIs - Git Flow - Heroku - GitHub - VS Code - NPM - Jest - MongoDB -
           Mongoose - IDB - PWAs - MVC Paradigm - Agile Developement - SQ - MySQL
-          Workbench - Sequelize
+          Workbench - Sequelize (Currently learning: React Native, Redux, and )
         </p>
         <a href={resume} download>
           Download My Resume (PDF)
