@@ -20,7 +20,8 @@ Simple usage just requires the user to click between the nav tabs.
 
 ## Credits
 
-A special thanks to Elizabeth Shipton for her article on how to apply a send email form in a react app.
+A special thanks to Elizabeth Shipton for her article on how to apply and send email form in a react app.
+To Shane Murphy for the css border styling insperation.
 Jordan Olguin (jordanolguin) and Will Brown (TrueWillB) for design inspirations.
 
 ## Questions?
