@@ -1,6 +1,6 @@
 # Andrick Siegmund's Portfolio
 
-https://64cc129a708954000827124b--lively-gumdrop-9abb14.netlify.app/
+https://andrick-siegmunds-portfolio.netlify.app
 
 ## Description
 
