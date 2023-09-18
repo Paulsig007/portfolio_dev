@@ -1,0 +1,26 @@
+  .logo{
+    padding: 1%;
+    width: 61%;
+    /* max-width: 300px; */
+    /* margin-left: -15%; */
+  }
+  
+  .navItem {
+    font-weight: 700;
+    color: rgb(252, 249, 249);
+    font-size: 3vw;
+    /* margin-top: 10%; */
+    padding: 5%;
+  }
+  
+  .navItem:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    color: rgb(220, 173, 20);
+  }
+
+  @media screen and (min-width: 1500px) {
+    .navItem {
+      font-size: 2.3vw;
+    }
+  }

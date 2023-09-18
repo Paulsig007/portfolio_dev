@@ -1,0 +1,54 @@
+.componentContainer {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 1rem;
+  /* border-radius: 30px; */
+  background: linear-gradient(to right bottom,
+  #b00634,
+  #fa6919,
+  #0bb42f,
+  #d0c500,
+  #39bbf5,
+  #681d75
+    );
+}
+
+.projectBackground{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4e565f;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+  }
+
+.projectTitle{
+    color: white;
+    text-shadow: 3px 3px 5px #20201f;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: 1vh;
+    text-align: left;
+}
+
+.projectText {
+    color: white;
+    text-shadow: 3px 3px 5px #20201f;
+    font-size: 1.5vw;
+    padding: 2%;
+}
+
+@media screen and (max-width: 1300px) {
+  .projectTitle {
+    font-size: 4vw;
+  }
+  .projectText {
+    font-size: 2.5vw;
+  }
+}
+

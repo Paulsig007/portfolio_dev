@@ -1,0 +1,119 @@
+.componentContainer {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 1rem;
+  /* border-radius: 30px; */
+  background: linear-gradient(to right bottom,
+  #b00634,
+  #fa6919,
+  #0bb42f,
+  #d0c500,
+  #39bbf5,
+  #681d75 
+    );
+}
+
+.textContainer {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4e565f;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 20px; */
+}
+
+.aboutTitle {
+    color: white;
+        text-shadow: 3px 3px 5px #20201f;
+    font-size: 3vw;
+    margin-top: 3%;
+  }
+  .aboutText {
+    color: white;
+        text-shadow: 3px 3px 5px #20201f;
+    font-size: 1.5vw;
+    margin: 4%;
+    margin-top: 2%;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4%;
+    padding-top: 2%;
+  }
+
+  .skillTitle {
+    color: white;
+        text-shadow: 3px 3px 5px #20201f;
+    font-size: 2vw;
+    text-decoration: underline;
+  }
+
+  .skillSubTitle {
+    color: white;
+        text-shadow: 3px 3px 5px #20201f;
+    font-size: 1.7vw;
+    text-decoration: underline;
+    margin-top: 2%
+  }
+
+  .skillList {
+    color: white;
+        text-shadow: 3px 3px 5px #20201f;
+    font-size: 1.7vw;
+    margin-bottom: .5%;
+  }
+  .skill {
+    float: left;
+    margin-right: 30px;
+  }
+
+  .resumeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .resume {
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #20201f;
+    font-size: 2vw;
+    padding: 1%;
+    margin: 2%;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .aboutTitle {
+      font-size: 4vw;
+    }
+    .aboutText {
+      font-size: 2.5vw;
+    }
+    .skillsContainer {
+      padding: 4%;
+    }
+    .skillTitle {
+      font-size: 3vw;
+    }
+    .skillSubTitle {
+      font-size: 2.5vw;
+    }
+    .skillList {
+      font-size: 2vw;
+    }
+    .resume {
+      font-size: 3vw;
+    }
+    
+  }
+
