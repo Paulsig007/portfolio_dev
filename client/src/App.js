@@ -15,7 +15,7 @@ export default function App() {
   const [isLoading, setIsLoading] = React.useState(true);
 
   useEffect(() => {
-    setTimeout(() => setIsLoading(false), 2500);
+    setTimeout(() => setIsLoading(false), 22500);
   }, []);
 
   return (

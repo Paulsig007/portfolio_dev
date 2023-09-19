@@ -43,7 +43,7 @@ export default function Contact() {
         <textarea
           id="contMessage"
           name="message"
-          placeholder="How Can I assist you?"
+          placeholder="How can I assist you?"
         />
         <input className="sendBtn" type="submit" value="Send" />
       </form>

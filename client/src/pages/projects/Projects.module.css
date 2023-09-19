@@ -10,8 +10,8 @@
   background: linear-gradient(to right bottom,
   #b00634,
   #fa6919,
-  #0bb42f,
   #d0c500,
+  #0bb42f,
   #39bbf5,
   #681d75
     );
@@ -45,10 +45,10 @@
 
 @media screen and (max-width: 1300px) {
   .projectTitle {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .projectText {
-    font-size: 2.5vw;
+    font-size: 3.2vw;
   }
 }
 

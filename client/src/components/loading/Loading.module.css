@@ -3,15 +3,14 @@
     margin-bottom: 15vh;
     font-weight: 1000;
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: center;
   }
 
   .loader {
+    display: inline-flex;
     margin: 0 auto;
-    width: 160px;
     height: 100px;
-    text-align: center;
     font-size: 10px;
     position: absolute;
     top: 50%;
@@ -20,39 +19,42 @@
     
     > div {
       height: 100%;
-      width: 15px;
-      display: inline-block;
-      float: left;
+      width: 10px;
+      display: inline-flex;
+      justify-content: center;
+      /* flex-direction: column; */
+      /* display: inline-block; */
+      /* float: left; */
       margin-left: 2px;
       -webkit-animation: delay 0.8s infinite ease-in-out;
       animation: delay 0.8s infinite ease-in-out;
     }
     
     .bar1{
-      background-color: #681d75 ;
+      background-color: #cd1344;
     }
     .bar2{
-      background-color: #39bbf5;
+      background-color: #fa6919;
       -webkit-animation-delay: -0.7s;
       animation-delay: -0.7s;
     }
     .bar3{
-      background-color: #4be09d;
+      background-color: #fcca05;
       -webkit-animation-delay: -0.6s;
       animation-delay: -0.6s;
     }
     .bar4{
-      background-color: #fcca05;
+      background-color: #4be09d;
       -webkit-animation-delay: -0.5s;
       animation-delay: -0.5s;
     }
     .bar5{
-      background-color: #fa6919;
+      background-color: #39bbf5;
       -webkit-animation-delay: -0.4s;
       animation-delay: -0.4s;
     }
     .bar6{
-      background-color: #cd1344;
+      background-color: #681d75 ;
       -webkit-animation-delay: -0.3s;
       animation-delay: -0.3s;
     }

@@ -10,8 +10,8 @@
   background: linear-gradient(to right bottom,
   #b00634,
   #fa6919,
-  #0bb42f,
   #d0c500,
+  #0bb42f,
   #39bbf5,
   #681d75 
     );
@@ -50,4 +50,14 @@
     border-radius: 10px;
     box-shadow: 3px 3px 5px 2px black;
     margin: 5%;
+  }
+
+  @media  all and (max-width: 1300px) {
+    .homeTitle {
+      font-size: 5vw;
+    }
+
+    .homeGreet {
+      font-size: 3vw;
+    }
   }
