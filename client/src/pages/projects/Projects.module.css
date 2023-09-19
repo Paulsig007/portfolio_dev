@@ -45,6 +45,15 @@
 
 @media screen and (max-width: 1300px) {
   .projectTitle {
+    font-size: 3.6vw;
+  }
+  .projectText {
+    font-size: 2.4vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projectTitle {
     font-size: 5vw;
   }
   .projectText {

@@ -1,9 +1,21 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./Footer.module.css";
+import { useState } from "react";
+import { useEffect } from "react";
 
 
 function Footer() {
+const [screenSize, setScreenSize] = useState(window.innerWidth);
+
+useEffect(() => {
+    window.addEventListener("resize", () => {
+        setScreenSize(window.innerWidth);
+    });
+}, []);
+
+const iconSize = screenSize > 600 ? 60 : 40;
+
     return (
         <div className={styles.footer}>
             <a
@@ -12,7 +24,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub size={50} />
+                  <FaGithub size={iconSize} />
                 </a>
                 <a
                   className={styles.linkedin}
@@ -20,7 +32,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin size={50} />
+                  <FaLinkedin size={iconSize} />
                 </a>
         </div>
     )

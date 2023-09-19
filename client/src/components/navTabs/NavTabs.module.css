@@ -8,7 +8,7 @@
   .navItem {
     font-weight: 700;
     color: rgb(252, 249, 249);
-    font-size: 3vw;
+    font-size: 2.5vw;
     /* margin-top: 10%; */
     padding: 5%;
   }
@@ -21,8 +21,8 @@
     color: #00f6c9;
   }
 
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1300px) {
     .navItem {
-      font-size: 4vw;
+      font-size: 3vw;
     }
   }

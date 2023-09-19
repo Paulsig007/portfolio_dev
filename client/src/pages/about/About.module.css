@@ -38,7 +38,7 @@
         text-shadow: 3px 3px 5px #20201f;
     font-size: 1.5vw;
     margin: 4%;
-    margin-top: 2%;
+    margin-top: 2%4
   }
 
   .skillsContainer {
@@ -47,7 +47,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 4%;
-    padding-top: 2%;
+    padding-top: 2%4
   }
 
   .skillTitle {
@@ -94,6 +94,31 @@
 
   @media screen and (max-width: 1300px) {
     .aboutTitle {
+      font-size: 3.6vw;
+    }
+    .aboutText {
+      font-size: 2.4vw;
+    }
+    .skillsContainer {
+      padding: 4%;
+    }
+    .skillTitle {
+      font-size: 3.6vw;
+    }
+    .skillSubTitle {
+      font-size: 2.4vw;
+    }
+    .skillList {
+      font-size: 2.4vw;
+    }
+    .resume {
+      font-size: 3.6vw;
+    }
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    .aboutTitle {
       font-size: 5vw;
     }
     .aboutText {
@@ -116,4 +141,6 @@
     }
     
   }
+
+
 

@@ -21,9 +21,13 @@ export default function NavTabs() {
       display: "flex",
       justifyContent: "space-evenly",
       alignItems: "center",
+      '@media screen and (max-width: 1500px)': {
+        paddingRight: "10%",
+      },
       '@media screen and (max-width: 600px)': {
         justifyContent: "center",
-      }
+        paddingRight: "0%",
+      },
       }}
       >
         <Link to={"/"} className={styles.navItem}>

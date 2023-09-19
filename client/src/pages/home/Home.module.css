@@ -52,7 +52,16 @@
     margin: 5%;
   }
 
-  @media  all and (max-width: 1300px) {
+  @media screen and (max-width: 1300px) {
+    .homeTitle {
+      font-size: 3.6vw;
+    }
+    .homeGreet {
+      font-size: 2.4vw;
+    }
+  }
+
+  @media  all and (max-width: 1000px) {
     .homeTitle {
       font-size: 5vw;
     }
@@ -61,3 +70,5 @@
       font-size: 3vw;
     }
   }
+
+  
