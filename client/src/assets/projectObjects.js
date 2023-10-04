@@ -1,11 +1,18 @@
 import Blueit from "./images/Blueit.png";
 import SocialNetworkAPI from "./images/SocialNetworkAPI.png";
-import Jate from "./images/Jate.png";
 import MaPeepl from "./images/MaPeepl.png";
 import DrDrink from "./images/Dr.Drink.png";
 import Chat98 from "./images/chat98.png";
+import MoraConsulting from "./images/MoraConsulting.png";
 
 const projectObjects = [
+    {
+      name: "Mora Consulting",
+      cardImg: MoraConsulting,
+      repoUrl: "https://github.com/Paulsig007/shayna-mora-consulting",
+      deployedUrl: "https://moraconsulting.co/",
+      descriptions: "My first freelance project",
+    },
     {
       name: "Chat98",
       cardImg: Chat98,
@@ -26,13 +33,6 @@ const projectObjects = [
       repoUrl: "https://github.com/Paulsig007/mySocialAPI",
       deployedUrl: "N/A",
       descriptions: "It basically explains itself",
-    },
-    {
-      name: "Jate",
-      cardImg: Jate,
-      repoUrl: "https://github.com/Paulsig007/textEditPro",
-      deployedUrl: "https://jate-siegmund-f0b7b423e081.herokuapp.com/",
-      descriptions: "A fun little text editor",
     },
     {
       name: "MaPeepl",
