@@ -50,7 +50,6 @@ export default function Projects() {
                 <Button href={project.repoUrl} target="_blank">
                   View Repo
                 </Button>
-                {/* if deployedURL=== # do not render */}
                 <Button
                   href={project.deployedUrl}
                   target="_blank"
