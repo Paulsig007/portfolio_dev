@@ -31,14 +31,14 @@ const projectObjects = [
     name: "Social Network API",
     cardImg: SocialNetworkAPI,
     repoUrl: "https://github.com/Paulsig007/mySocialAPI",
-    deployedUrl: "#",
+    deployedUrl: "https://github.com/Paulsig007/mySocialAPI",
     descriptions: "A Fun little API (No Deployed URL)",
   },
   {
     name: "MaPeepl",
     cardImg: MaPeepl,
     repoUrl: "https://github.com/Paulsig007/MaPeepl",
-    deployedUrl: "#",
+    deployedUrl: "https://github.com/Paulsig007/MaPeepl",
     descriptions: "CLI Employee Tracker (No Deployed URL)",
   },
   {
