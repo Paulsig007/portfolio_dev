@@ -16,47 +16,6 @@ export default function Projects() {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.projectBackground}>
-      <h1 className={styles.projectTitle}>Projects</h1>
-      <p className={styles.projectText}>
-        Please feel free to browse through my projects. I have included links to
-        the repositories as well as the deployed applications.
-      </p>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "20px",
-          justifyContent: "center",
-          marginBottom: "4%"
-        }}
-      >
-        {projectObjects.map((project, index) => (
-          <Card
-            key={index}
-            className=".projectCard"
-            style={{ minWidth: 300, cursor: "pointer" }}
-            onClick={() => handleCardClick(project.deployedUrl)}
-          >
-            <img
-              src={project.cardImg}
-              alt={project.name}
-              style={{ height: 130, width: "100%", objectFit: "cover" }}
-            />
-            <CardContent>
-              <Typography variant="h6" component="div">
-                {project.name}
-              </Typography>
-              <Typography variant="body1">{project.descriptions}</Typography>
-              <Button href={project.repoUrl} target="_blank">
-                View Repo
-              </Button>
-              <Button href={project.deployedUrl} target="_blank">
-                View Deployed
-              </Button>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
         <h1 className={styles.projectTitle}>Projects</h1>
         <p className={styles.projectText}>
           Please feel free to browse through my projects. I have included links
@@ -76,16 +35,13 @@ export default function Projects() {
               key={index}
               className=".projectCard"
               style={{ minWidth: 340, cursor: "pointer" }}
-            >
-              <CardMedia
-                component="img"
-                height="130"
-                image={project.cardImg}
-                alt={project.name}
-                onClick={() =>
-                  (window.location.href = `${project.deployedUrl}`)
-                }
-              />
+              onClick={() => handleCardClick(project.deployedUrl)}
+          >
+            <img
+              src={project.cardImg}
+              alt={project.name}
+              style={{ height: 130, width: "100%", objectFit: "cover" }}
+            />
               <CardContent>
                 <Typography variant="h6" component="div">
                   {project.name}
@@ -113,3 +69,4 @@ export default function Projects() {
     </div>
   );
 }
+
