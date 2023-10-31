@@ -6,27 +6,30 @@ export default function About() {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.textContainer}>
-        <h2 className={styles.aboutTitle}>It's a pleasure to meet you!</h2>
+        <h2 className={styles.aboutTitle}>about me</h2>
         <p className={styles.aboutText}>
-          Greetings! I'm not just a full stack software engineer; I'm an
-          enthusiastic explorer of the boundless realm where learning and
-          creation intertwine. From the very roots of my fascination with
-          technology's potential to unravel challenges, I've embarked on a
-          journey that's ignited an insatiable passion for development.
-          <br></br>
-          <br></br>
-          My sights are set on weaving my
-          narrative into the vibrant tapestry of the tech community. I'm ready to
-          dive into tomorrow's solutions, as I strive to make every
-          line of code a testament to my unwavering commitment to progress.
+        👋 Hey there! I'm Andrick, a code wizard on a mission to sprinkle tech magic everywhere! 💻✨
+
+🚀 I'm fluent in programming languages and speak fluent emoji too! When the code finally clicks, I do a little victory dance. 💃💻
+
+🌌 Space geek at heart, give me a sci-fi movie or mind-boggling space facts, and I'm over the moon! 🌠🚀
+
+🌮 Oh, and let's taco 'bout my love for, well, tacos. They're my kryptonite! 🌮❤️
+
+💡 Let's team up, talk tech, explore the cosmos, and maybe invent something awesome together!
+
+Connect with me and let's make the digital world a more exciting place! 🌟
+
+Cheers,
+Andrick 🌈
         </p>
         {/* <br></br> */}
-        <h2 className={styles.skillTitle}>My Skills</h2>
+        <h2 className={styles.skillTitle}>skills</h2>
         <div className={styles.skillsContainer}>
       
-        <h2 className={styles.skillSubTitle}>Languages:</h2>
+        <h2 className={styles.skillSubTitle}>languages:</h2>
         <p className={styles.skillList}>
-          HTML - CSS - Javascript ES7
+          HTML5 - CSS3 - Javascript ES6+
         </p>
        
         <h2 className={styles.skillSubTitle}>Frameworks & Libraries:</h2>
@@ -44,7 +47,7 @@ export default function About() {
       
         <h2 className={styles.skillSubTitle}>Tools:</h2>
         <p className={styles.skillList}>
-          Git Flow - Heroku - GitHub - VS Code - NPM - Jest - MVC Paradigm - Agile Developement
+          Git - Heroku - GitHub - VS Code - NPM - Jest - MVC Paradigm - Agile Developement
         </p>
       
         <h2 className={styles.skillSubTitle}>Currently Learning:</h2>

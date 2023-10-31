@@ -2,7 +2,6 @@ import React from "react";
 import {
   Card,
   CardContent,
-  CardMedia,
   Typography,
   Button,
 } from "@mui/material";
@@ -11,6 +10,10 @@ import styles from "./Projects.module.css";
 
 
 export default function Projects() {
+  const handleCardClick = (url) => {
+    window.open(url, "_blank");
+  }
+
   return (
     <div className={styles.componentContainer}>
       <div className={styles.projectBackground}>
@@ -33,13 +36,12 @@ export default function Projects() {
             key={index}
             className=".projectCard"
             style={{ minWidth: 300, cursor: "pointer" }}
+            onClick={() => handleCardClick(project.deployedUrl)}
           >
-            <CardMedia
-              component="img"
-              height="130"
-              image={project.cardImg}
+            <img
+              src={project.cardImg}
               alt={project.name}
-              onClick={ () => (window.location.href = `${project.deployedUrl}`)}
+              style={{ height: 130, width: "100%", objectFit: "cover" }}
             />
             <CardContent>
               <Typography variant="h6" component="div">
