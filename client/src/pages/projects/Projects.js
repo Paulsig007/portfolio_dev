@@ -35,12 +35,12 @@ export default function Projects() {
               key={index}
               className=".projectCard"
               style={{ minWidth: 340, cursor: "pointer" }}
-              onClick={() => handleCardClick(project.deployedUrl)}
           >
             <img
               src={project.cardImg}
               alt={project.name}
               style={{ height: 130, width: "100%", objectFit: "cover" }}
+              onClick={() => handleCardClick(project.deployedUrl)}
             />
               <CardContent>
                 <Typography variant="h6" component="div">
