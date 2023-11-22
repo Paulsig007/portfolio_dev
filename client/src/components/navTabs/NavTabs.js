@@ -33,13 +33,13 @@ export default function NavTabs() {
         <Link to={"/"} className={styles.navItem}>
         Home
         </Link>
-        <Link to={"/#/about"} className={styles.navItem}>
+        <Link to={"/about"} className={styles.navItem}>
           About
         </Link>
-        <Link to={"/#/projects"} className={styles.navItem}>
+        <Link to={"/projects"} className={styles.navItem}>
           Projects
         </Link>
-        <Link to={"/#/contact"} className={styles.navItem}>
+        <Link to={"/contact"} className={styles.navItem}>
           Contact
         </Link>
       </Grid>

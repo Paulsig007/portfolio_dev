@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 import React, { useEffect } from "react";
 import Home from "./pages/home/Home";
@@ -19,7 +19,7 @@ export default function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
     <Container maxWidth={false}>
       {isLoading ? (
         <Loading />
@@ -29,15 +29,15 @@ export default function App() {
             <Nav />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/#/about" element={<About />} />
-              <Route path="/#/projects" element={<Projects />} />
-              <Route path="/#/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
           </div>
         </div>
       )}
       </Container>
-    </Router>
+    </HashRouter>
   );
 }
