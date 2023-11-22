@@ -38,7 +38,7 @@
         text-shadow: 3px 3px 5px #20201f;
     font-size: 1.5vw;
     margin: 4%;
-    margin-top: 2%4
+    margin-top: 2%;
   }
 
   .skillsContainer {
@@ -47,7 +47,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 4%;
-    padding-top: 2%4
+    padding-top: 2%;
   }
 
   .skillTitle {
@@ -62,7 +62,7 @@
         text-shadow: 3px 3px 5px #20201f;
     font-size: 1.7vw;
     text-decoration: underline;
-    margin-top: 2%
+    margin-top: 2%;
   }
 
   .skillList {

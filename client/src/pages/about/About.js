@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.textContainer}>
-        <h2 className={styles.aboutTitle}>about me</h2>
+        <h2 className={styles.aboutTitle}>About Me</h2>
         <p className={styles.aboutText}>
         👋 Hey there! I'm Andrick, a code wizard on a mission to sprinkle tech magic everywhere! 💻✨
 
