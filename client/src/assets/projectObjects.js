@@ -34,13 +34,13 @@ const projectObjects = [
     deployedUrl: "https://github.com/Paulsig007/mySocialAPI",
     descriptions: "A Fun little API (No Deployed URL)",
   },
-  {
-    name: "MaPeepl",
-    cardImg: MaPeepl,
-    repoUrl: "https://github.com/Paulsig007/MaPeepl",
-    deployedUrl: "https://github.com/Paulsig007/MaPeepl",
-    descriptions: "CLI Employee Tracker (No Deployed URL)",
-  },
+  // {
+  //   name: "MaPeepl",
+  //   cardImg: MaPeepl,
+  //   repoUrl: "https://github.com/Paulsig007/MaPeepl",
+  //   deployedUrl: "https://github.com/Paulsig007/MaPeepl",
+  //   descriptions: "CLI Employee Tracker (No Deployed URL)",
+  // },
   {
     name: "Dr. Drink",
     cardImg: DrDrink,
