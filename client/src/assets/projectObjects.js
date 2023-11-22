@@ -1,6 +1,6 @@
 import Blueit from "./images/Blueit.png";
 import SocialNetworkAPI from "./images/SocialNetworkAPI.png";
-import MaPeepl from "./images/MaPeepl.png";
+// import MaPeepl from "./images/MaPeepl.png";
 import DrDrink from "./images/Dr.Drink.png";
 import Chat98 from "./images/chat98.png";
 import MoraConsulting from "./images/MoraConsulting.png";
