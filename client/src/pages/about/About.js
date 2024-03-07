@@ -8,52 +8,47 @@ export default function About() {
       <div className={styles.textContainer}>
         <h2 className={styles.aboutTitle}>About Me</h2>
         <p className={styles.aboutText}>
-        👋 Hey there! I'm Andrick, a code wizard on a mission to sprinkle tech magic everywhere! 💻✨
+        Hey there! My name is Andrick, and I’m a full-stack Web Developer. After just over 11 years in the restaurant industry, holding almost every front-of-house position, I decided to make the switch to something that, at the time, felt sustainable, what with the tech industry slated to grow by 13% in just a few years. Was I in for a surprise or what? I’d honestly still make that switch, knowing how nasty the market would get, because I love what I do now.
+        <br></br>
+        <br></br>
+        Since graduating from my Web Dev boot camp, I have started my own consulting business, taken on a handful of clients who have needed a lot of help, and loved every step of the way. I especially love the feeling of launching a product into the world for real people to see. While primarily working independently, I have also worked on group projects with my friends, developing applications we just wanted to build. Solving problems that initially seem impossible has become the fuel that drives me to get out of bed every morning. 
+        <br></br>
+        <br></br>
+        Embracing the world of web development has been a career shift and a journey of continuous learning and personal growth. The transition from the bustling energy of restaurants to the dynamic and ever-evolving tech landscape has been nothing short of exhilarating. Each client project brings challenges and learning opportunities, further enriching my expertise and passion for this field. The magic of turning complex ideas into functional, user-friendly digital experiences truly sets my heart ablaze. It's more than coding; it's about crafting solutions that make a difference in people's lives.
+        <br></br>
+        <br></br>
+        Thank you for visiting my site. I'm excited to see where this journey takes me next, and I hope to have the opportunity to bring your digital vision to life.
 
-🚀 I'm fluent in programming languages and speak fluent emoji too! When the code finally clicks, I do a little victory dance. 💃💻
-
-🌌 Space geek at heart, give me a sci-fi movie or mind-boggling space facts, and I'm over the moon! 🌠🚀
-
-🌮 Oh, and let's taco 'bout my love for, well, tacos. They're my kryptonite! 🌮❤️
-
-💡 Let's team up, talk tech, explore the cosmos, and maybe invent something awesome together!
-
-Connect with me and let's make the digital world a more exciting place! 🌟
-
-Cheers,
-Andrick 🌈
         </p>
         {/* <br></br> */}
-        <h2 className={styles.skillTitle}>skills</h2>
+        <h2 className={styles.skillTitle}>My Skills</h2>
         <div className={styles.skillsContainer}>
       
-        <h2 className={styles.skillSubTitle}>languages:</h2>
+        <h2 className={styles.skillSubTitle}>Languages:</h2>
         <p className={styles.skillList}>
-          HTML5 - CSS3 - Javascript ES6+
+          HTML - CSS - Javascript (Node.js) - jQuery - GraphQL - SQL - NoSQL - Python - Java
         </p>
        
         <h2 className={styles.skillSubTitle}>Frameworks & Libraries:</h2>
         <p className={styles.skillList}>
-          Frontend:  React - Handlebars - Bootstrap - Material UI
-        </p>
-        <p className={styles.skillList}> 
-          Backend:  Node - Express - Apollo GraphQL - Mongoose - Sequelize - RESTful APIs - AJAX 
+          React - Vite - Tailwind CSS - Material UI - Express.js
         </p>
       
-        <h2 className={styles.skillSubTitle}>Databases:</h2>
+        <h2 className={styles.skillSubTitle}>Software Development Tools:</h2>
         <p className={styles.skillList}>
-          MongoDB - MySQL - IndexedDB
+          Git - Github - Jest - Vitest - Restful APIs - External APIs - Containerization (Docker)
         </p>
       
-        <h2 className={styles.skillSubTitle}>Tools:</h2>
+        <h2 className={styles.skillSubTitle}>Database Management:</h2>
         <p className={styles.skillList}>
-          Git - Heroku - GitHub - VS Code - NPM - Jest - MVC Paradigm - Agile Developement
+          MySQL (Workbench) - MongoDB (Compass)
+        </p>
+
+        <h2 className={styles.skillSubTitle}>Technical:</h2>
+        <p className={styles.skillList}>
+          Troubleshooting - Debugging - Problem Solving - Responsive Design - Cross-Browser Compatibility - Web Accessibility
         </p>
       
-        <h2 className={styles.skillSubTitle}>Currently Learning:</h2>
-        <p className={styles.skillList}>
-          React Native - Redux - Typescript
-        </p>
       
         {/* <p className={styles.skillsList}>
 

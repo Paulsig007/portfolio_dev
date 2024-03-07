@@ -47,17 +47,28 @@ export default function Projects() {
                   {project.name}
                 </Typography>
                 <Typography variant="body1">{project.descriptions}</Typography>
-                <Button href={project.repoUrl} target="_blank">
+                <Button 
+                  href={project.repoUrl} 
+                  target="_blank"
+                  style=
+                    {
+                      project.repoUrl === "#"
+                        ? { display: "none" }
+                        : { display: "inline" }
+                    }
+                  >
                   View Repo
                 </Button>
                 <Button
                   href={project.deployedUrl}
                   target="_blank"
-                  style={
+                  style=
+                  {
                     project.deployedUrl === "#"
                       ? { display: "none" }
                       : { display: "inline" }
                   }
+
                 >
                   View Deployed App
                 </Button>

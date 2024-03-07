@@ -4,8 +4,16 @@ import SocialNetworkAPI from "./images/SocialNetworkAPI.png";
 import DrDrink from "./images/Dr.Drink.png";
 import Chat98 from "./images/chat98.png";
 import MoraConsulting from "./images/MoraConsulting.png";
+import DeansRoundtable from "./images/DeansRoundtable.png";
 
 const projectObjects = [
+  {
+    name: "Deans Roundtable",
+    cardImg: DeansRoundtable,
+    repoUrl: "#",
+    deployedUrl: "https://deansroundtable.org/",
+    descriptions: "A refactored website",
+  },
   {
     name: "Mora Consulting",
     cardImg: MoraConsulting,
